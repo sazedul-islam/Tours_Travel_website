@@ -82,126 +82,6 @@ body{
     margin-left: 10px;
 }
  
-/* ggsgsgsgsgsg */
-.destination-content{
-    margin: 50px auto 40px;
-    width: 80%;
-    padding: 40px 0px;
-  
-
-    & .destination-text{
-        text-align: center;
-        margin: 0px 0px 40px;
-    }
-    & .destination-text h2{
-        font-size: 40px;
-        font-weight: 800 !important;
-        line-height: 50px;
-        letter-spacing: 1.5px;
-        padding-top: 10px;
-        font-weight: 600;
-        margin: 10px 0px 20px;
-    }
-    & .destination-text p{
-        color: #424247;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.7em;
-        padding: 0px 15px 40px 0px;
-    }
-    & .destination-box {
-        width: 100%;
-
-        & .box-1{
-            display: flex;
-            flex-basis: auto;
-            flex-wrap: wrap;
-            flex-direction: row;
-            margin: 0px 0px 20px;
-            justify-content: center;
-
-            & .destination-box1{
-                flex-basis: 48%;
-                padding: 5px;
-            }
-            & img {
-                width: 100%;
-                height: 100%;
-                display: block;
-                object-fit: cover;
-            }
-            
-        }
-        & .box-2{
-            display: flex;
-            flex-basis: auto;
-            flex-wrap: wrap;
-            flex-direction: row;
-            margin: 0px 0px 20px;
-            justify-content: center;
-
-            & .destination-box2{
-                flex-basis: 32%;
-                padding: 5px;
-            }
-            & img {
-                width: 100%;
-                height: 90%;
-                display: block;
-            }
-        }
-        & .box-3{
-            display: flex;
-            flex-basis: auto;
-            flex-wrap: wrap;
-            flex-direction: row;
-            margin: 0px 0px 20px;
-            justify-content: center;
-
-            & .destination-box3{
-                flex-basis: 48%;
-                padding: 5px;
-            }
-            & img {
-                width: 100%;
-                height: 100%;
-                display: block;
-                object-fit: contain;
-            }
-            & .p2{
-                object-fit: contain;
-                height: 80%;
-            }
-            
-        }
-    }
-    & .destination-box img{
-        transition: 0.5s ease-in-out;
-    }
-    & .destination-box img:hover {
-        transform: scale(1.1);
-    }
-    
-    & .destination-box .img-container {
-        position: relative;
-        overflow: hidden;
-        border-radius: 8px;
-    }
-    & .destination-box .img-container h3 {
-        position: absolute;
-        text-align: center;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fff;
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 26px;
-        letter-spacing: 1px;
-        z-index: 10;
-    }
-}
-
 
 /* Tours Section CSS */
 .tours-section{
@@ -328,6 +208,50 @@ body{
     display: flex;
     justify-content: center;
 }
+
+/* Getlost Section css */
+.getlost-section{
+    margin-top: 8%;
+
+}
+.getlost-items{
+    display: flex;
+    justify-content: space-around;
+}
+.getlost-content{
+    width: 45%;
+}
+.getlost-content h2{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.getlost-content  p{
+    font-size: 18px;
+    margin: 25px 0;
+    color: #79797B;
+}
+.item-list li{
+    color: #717175;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.getlost-content button{
+    padding: 10px 30px;
+    border: 1px solid #FF6920;
+    background-color: #FF6920;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.getlost-content button:hover{
+    color: #FF6920;
+    border-color: #FF6920;
+    background-color: #fff;
+    cursor: pointer;
+}
+
 /* Newsletter Section css */
 .news-section{
     margin-top: 8%;
