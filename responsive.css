@@ -12,25 +12,34 @@
     .nav-logo h2{font-size: 20px;}
     .hero-contant h1 {font-size: 25px;}
     .hero-contant p {font-size: 13px;padding: 5px;}
+    
+
+    .destination-content .destination-text h2 {margin-top: -50px; font-size: 28px;line-height: 38px;}
+    .destination-content .destination-text  { margin-bottom: 0px;font-size: 14px;line-height: 24px; }
+    .destination-content .destination-box .box-1, .destination-content .destination-box .box-2, .destination-content .destination-box .box-3{ flex-direction: column;margin: 0px auto 0px;}
+    .destination-content .destination-box .box-2 .destination-box2 {flex-basis: 100%;margin: 10px 0px 65px;}
+    .destination-content .destination-box .box-3 .destination-box3:first-child { margin: 85px 0px 1px;}
+    
     .form-list {width: 80%;margin-bottom: 10px;}
     .extra{width: 75%;}
-   .btn-from { width: 80%;}
-   .tours-items{display: inline;justify-content: space-around;}
+    .btn-from { width: 80%;}
+    .tours-items{display: inline;justify-content: space-around;}
     .torus-img img{ width: 100%;}
     .tours-content { width: 100%;margin-bottom: 20px;}
+
 
     .log-form {padding: 2%; width: 97%;margin-bottom: 20px}  
     .log-img { width: 100%;}
     .news-content{ display: inline;gap: 20px;}
     .form-items input { width: 85%;}
     .form-items button { width: 98%;}
+
     
-    .foot-1 p {
-         padding: 0; 
-         margin-bottom: 0; 
-    }
-    .fot-extra{
-        padding: 0 ;
-    }
+    .item-3 , .item-2 , .item-1 {width: 100%;}
+    .item-2{ margin-left: 0;}
+    .item-1 , .item-2{ padding: 2px;margin-bottom: 10x;}
+    .chose-content { display: inline;}
+    .foot-1 p { padding: 0; margin-bottom: 0; }
+    .fot-extra{padding: 0 }
 
 } 

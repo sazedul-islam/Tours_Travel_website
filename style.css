@@ -81,6 +81,127 @@ body{
     border-radius: 5px;
     margin-left: 10px;
 }
+ 
+/* ggsgsgsgsgsg */
+.destination-content{
+    margin: 50px auto 40px;
+    width: 80%;
+    padding: 40px 0px;
+  
+
+    & .destination-text{
+        text-align: center;
+        margin: 0px 0px 40px;
+    }
+    & .destination-text h2{
+        font-size: 40px;
+        font-weight: 800 !important;
+        line-height: 50px;
+        letter-spacing: 1.5px;
+        padding-top: 10px;
+        font-weight: 600;
+        margin: 10px 0px 20px;
+    }
+    & .destination-text p{
+        color: #424247;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.7em;
+        padding: 0px 15px 40px 0px;
+    }
+    & .destination-box {
+        width: 100%;
+
+        & .box-1{
+            display: flex;
+            flex-basis: auto;
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin: 0px 0px 20px;
+            justify-content: center;
+
+            & .destination-box1{
+                flex-basis: 48%;
+                padding: 5px;
+            }
+            & img {
+                width: 100%;
+                height: 100%;
+                display: block;
+                object-fit: cover;
+            }
+            
+        }
+        & .box-2{
+            display: flex;
+            flex-basis: auto;
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin: 0px 0px 20px;
+            justify-content: center;
+
+            & .destination-box2{
+                flex-basis: 32%;
+                padding: 5px;
+            }
+            & img {
+                width: 100%;
+                height: 90%;
+                display: block;
+            }
+        }
+        & .box-3{
+            display: flex;
+            flex-basis: auto;
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin: 0px 0px 20px;
+            justify-content: center;
+
+            & .destination-box3{
+                flex-basis: 48%;
+                padding: 5px;
+            }
+            & img {
+                width: 100%;
+                height: 100%;
+                display: block;
+                object-fit: contain;
+            }
+            & .p2{
+                object-fit: contain;
+                height: 80%;
+            }
+            
+        }
+    }
+    & .destination-box img{
+        transition: 0.5s ease-in-out;
+    }
+    & .destination-box img:hover {
+        transform: scale(1.1);
+    }
+    
+    & .destination-box .img-container {
+        position: relative;
+        overflow: hidden;
+        border-radius: 8px;
+    }
+    & .destination-box .img-container h3 {
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: 1px;
+        z-index: 10;
+    }
+}
+
 
 /* Tours Section CSS */
 .tours-section{
@@ -144,14 +265,14 @@ body{
     padding: 0 20%;
 }
 .chose-content{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    display: flex;
 }
 .item-1 {
     background-color: #FFFBF7;
     padding: 4% 17% 6% 5%;
     border-radius: 10px;
+    width: 48%;
+    margin-right: 10px;
 }
 .item-1 h3{
         font-size: 22px;
@@ -169,6 +290,8 @@ body{
     background-color: #F4FDFF;
     padding: 4% 17% 6% 5%;
     border-radius: 10px;
+    width: 48%;
+    margin-left: 10px;
 }
 .item-2 h3{
         font-size: 22px;
@@ -186,6 +309,8 @@ body{
     background-color: #FEF6F6;
     padding: 4% 17% 6% 5%;
     border-radius: 10px;
+    width: 28%;
+    margin-top: 15px;
 }
 .item-3 h3{
         font-size: 22px;
@@ -199,7 +324,10 @@ body{
 .item-3 img{
     margin-bottom: 15px;
 }
-
+.third-i{
+    display: flex;
+    justify-content: center;
+}
 /* Newsletter Section css */
 .news-section{
     margin-top: 8%;
