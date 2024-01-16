@@ -209,6 +209,67 @@ body{
     justify-content: center;
 }
 
+/* Deals Section Css */
+.deals-section{
+    padding: 50px 0;
+}
+
+.deals-content{
+    text-align: center;
+}
+.deals-content h2{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.deals-content p{
+    font-size: 18px;
+    color: #717175;
+    margin-bottom: 40px;
+}
+.deals1{
+    background-image: url(./Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    margin-top: 15px;
+}
+
+.deals-first{
+    background: rgba(255, 255, 255, 0.80);
+    width: 31%;
+    height: 55%;
+    margin-left: 55%;
+    padding: 10px 30px;
+}
+.deals-second{
+    margin-left: 15%;
+}
+.deals-first h2{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.deals-first h5 {
+    color: #FF6920;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.deals-first p{
+   font-size: 18px;
+}
+.deals-first a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #FF6920;
+    background-color: #FF6920;
+    margin-top: 15px;
+    color: #FEF6F6;
+}
+
+
+
+
 /* Getlost Section css */
 .getlost-section{
     margin-top: 8%;

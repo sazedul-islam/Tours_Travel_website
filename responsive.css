@@ -28,6 +28,11 @@
         height: 200px;
         width: 100%;
     }
+    .deals-first {
+        width: 78%;
+        margin-left: 8%;
+        padding: 12px 10px;
+    }
 
     .log-form {padding: 2%; width: 97%;margin-bottom: 20px}  
     .log-img { width: 100%;}
