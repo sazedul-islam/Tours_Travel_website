@@ -123,3 +123,78 @@ body{
     cursor: pointer;
 }
 
+/* Chose Section CSS */
+.chose-section{
+    margin-top: 8%;
+}
+.chose-head{
+    text-align: center;
+}
+.chose-head h2{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.chose-head p{
+    color: #717175;
+    font-size: 18px;
+    margin-bottom: 40px;
+    padding: 0 20%;
+}
+.chose-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.item-1 {
+    background-color: #FFFBF7;
+    padding: 4% 17% 6% 5%;
+    border-radius: 10px;
+}
+.item-1 h3{
+        font-size: 22px;
+        font-weight: 800;
+        margin-bottom: 20px;
+}
+.item-1 p{
+    color: #717175;
+    font-size: 18px;
+}
+.item-1 img{
+    margin-bottom: 15px;
+}
+.item-2 {
+    background-color: #F4FDFF;
+    padding: 4% 17% 6% 5%;
+    border-radius: 10px;
+}
+.item-2 h3{
+        font-size: 22px;
+        font-weight: 800;
+        margin-bottom: 20px;
+}
+.item-2 p{
+    color: #717175;
+    font-size: 18px;
+}
+.item-2 img{
+    margin-bottom: 15px;
+}
+.item-3 {
+    background-color: #FEF6F6;
+    padding: 4% 17% 6% 5%;
+    border-radius: 10px;
+}
+.item-3 h3{
+        font-size: 22px;
+        font-weight: 800;
+        margin-bottom: 20px;
+}
+.item-3 p{
+    color: #717175;
+    font-size: 18px;
+}
+.item-3 img{
+    margin-bottom: 15px;
+}
+
