@@ -47,7 +47,6 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     height: 450px;
-  
 }
 .hero-items{
     text-align: center;
@@ -80,3 +79,47 @@ body{
     border-radius: 5px;
     margin-left: 10px;
 }
+
+/* Tours Section CSS */
+.tours-section{
+    margin-top: 8%;
+
+}
+.tours-items{
+    display: flex;
+    justify-content: space-around;
+}
+.tours-content{
+    width: 45%;
+}
+.tours-content h2{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.tours-content  p{
+    font-size: 18px;
+    margin: 25px 0;
+    color: #79797B;
+}
+.item-list li{
+    color: #717175;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.tours-content button{
+    padding: 10px 30px;
+    border: 1px solid #FF6920;
+    background-color: #FF6920;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.tours-content button:hover{
+    color: #FF6920;
+    border-color: #FF6920;
+    background-color: #fff;
+    cursor: pointer;
+}
+
