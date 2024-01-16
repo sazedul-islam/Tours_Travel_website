@@ -5,10 +5,9 @@
 
 
 @media(max-width:600px){
-    .global-margin {
-        margin-left: 4%;
-        margin-right: 4%;
-    }
+    
+
+    .global-margin {margin-left: 4%; margin-right: 4%;}
     .nav-items{ display: none;}
     .nav-logo a img{ width: 20%;}
     .nav-logo h2{font-size: 20px;}
@@ -17,17 +16,15 @@
     .form-list {width: 80%;margin-bottom: 10px;}
     .extra{width: 75%;}
    .btn-from { width: 80%;}
+   .tours-items{display: inline;justify-content: space-around;}
+    .torus-img img{ width: 100%;}
+    .tours-content { width: 100%;margin-bottom: 20px;}
 
-   .tours-items{
-    display: inline;
-    justify-content: space-around;
-    }
-    .torus-img img{
-        width: 100%;
-    }
-    .tours-content {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-   
+    .log-form {padding: 2%; width: 97%;margin-bottom: 20px}  
+    .log-img { width: 100%;}
+    .news-content{ display: inline;gap: 20px;}
+    .form-items input { width: 85%;}
+    .form-items button { width: 98%;}
+
+
 } 
