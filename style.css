@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.global-margin{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/* Navber Section CSS */
+.nav-section, .nav-logo a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.nav-items ul li{
+    display: inline;
+}
+.nav-items ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #717175;
+    margin-left: 30px;
+}
+.nav-items ul li a:hover{
+    color: #FF6920;
+}
+.nav-logo h2{
+    font-size: 30px;
+}
+.nav-logo h2 span{
+    color: #FF6920;
+}
+
+/* Hero Section CSS */
+.hero-section{
+    background-image: url(./Images/ImagesGroup\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+  
+}
+.hero-items{
+    text-align: center;
+}
+.hero-contant h1{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 800; 
+    padding: 8% 0% 0% 0%; 
+}
+.hero-contant p {
+    color: #fff;
+    padding: 0 22%;
+    margin: 12px 0;
+    font-size: 18px;
+}
+.form-list{
+    width: 10%;
+    padding: 15px 7px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.btn-from{
+    background-color: #FF6920;
+    color: #fff;
+    width: 10%;
+    padding: 15px 7px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
