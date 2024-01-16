@@ -5,8 +5,7 @@
 
 
 @media(max-width:600px){
-    
-
+   
     .global-margin {margin-left: 4%; margin-right: 4%;}
     .nav-items{ display: none;}
     .nav-logo a img{ width: 20%;}
@@ -25,6 +24,13 @@
     .news-content{ display: inline;gap: 20px;}
     .form-items input { width: 85%;}
     .form-items button { width: 98%;}
-
+    
+    .foot-1 p {
+         padding: 0; 
+         margin-bottom: 0; 
+    }
+    .fot-extra{
+        padding: 0 ;
+    }
 
 } 

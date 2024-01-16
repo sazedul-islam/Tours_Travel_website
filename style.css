@@ -261,3 +261,55 @@ body{
     color: #FF6920;
     border-color: #FF6920;
 }
+
+/* Footer section css */
+.footer-section{
+    background-color: #F3F3F3;
+    padding: 5% 0% 2% 0%;
+}
+.foot-logo a{
+   display: flex;
+   justify-content: center;
+   text-decoration: none;
+   align-items: center;
+   margin-bottom: 20px;
+}
+.foot-logo a h2{
+    color: #000;
+    font-size: 30px;
+    font-weight: 800;
+}
+.foot-logo a span{
+    color: #FF6920;
+}
+.foot-1 p {
+    text-align: center;
+    padding: 0 9%;
+    margin-bottom: 25px;
+}
+.social-media {
+    text-align: center;
+    border-bottom: 1px solid #717175;
+    padding: 20px 0;
+}
+.social-media  li{
+   display: inline;
+   align-items: center;
+}
+.social-media a{
+        color: #000;
+        font-size: 20px;
+        margin: 0 10px;
+        transition: all 0.3s ease-in-out;
+}
+.social-media a:hover{
+    color: #FF6920;
+}
+.fot-extra{
+    padding: 0 10%;
+}
+
+.copy-items{
+    padding: 4% 0;
+    text-align: center;
+}
